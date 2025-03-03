@@ -1,4 +1,5 @@
 venv
 __pycache__
-facecam_app/photo/known_face.jpg
+facecam_app/photo/known_faces/*
 facecam_app/photo/current_face.jpg
+facecam_app/photo/faces
