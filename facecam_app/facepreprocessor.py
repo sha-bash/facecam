@@ -68,8 +68,7 @@ class FacePreprocessor:
 if __name__ == "__main__":
     preprocessor = FacePreprocessor()
     
-    # Укажите папку с изображениями и папку для сохранения обработанных лиц
-    folder_with_images = 'facecam_app/photo/faces'  # Папка с изображениями людей
-    processed_folder = 'facecam_app/photo/known_faces'  # Папка для обработанных лиц
+    folder_with_images = 'facecam_app/photo/faces'  
+    processed_folder = 'facecam_app/photo/known_faces'  
 
     preprocessor.process_faces_in_folder(folder_with_images, processed_folder)
